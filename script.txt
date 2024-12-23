@@ -1,0 +1,10 @@
+SAY Hello, welcome to the DSLbot!
+ASK What is your name?
+SAY Nice to meet you, $ANSWER!
+IF $ANSWER == Alice THEN
+  SAY You have a special name!
+ELSE
+  SAY Your name is unique!
+ENDIF
+SAY This is the end of the script.
+END

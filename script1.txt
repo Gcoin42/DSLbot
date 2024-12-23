@@ -1,0 +1,6 @@
+SAY 欢迎使用信息查询系统！
+FETCH_DOUBAN_RANGE 1-10
+SAY 排名1-10的电影信息已获取并保存到 movies_range.csv 文件中。
+FETCH_LIANJIA_PRICE 20000-25000
+SAY 均价在20000到25000之间的楼盘信息已获取并保存到 lianjia_filtered.csv 文件中。
+END

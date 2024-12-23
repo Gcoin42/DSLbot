@@ -1,0 +1,14 @@
+SAY 欢迎使用信息查询系统！
+ASK 请输入查询类型 (1: 电影排名, 2: 楼盘均价):
+IF $ANSWER == 1 THEN
+    FETCH_DOUBAN_RANGE
+    SAY 电影信息已获取。
+ELSE
+    IF $ANSWER == 2 THEN
+        FETCH_LIANJIA_PRICE
+        SAY 楼盘信息已获取。
+    ELSE
+        SAY 无效的查询类型。
+    ENDIF
+ENDIF
+END

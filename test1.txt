@@ -1,0 +1,7 @@
+
+SAY 现在查询链家楼盘信息。
+FETCH_LIANJIA
+#SAY 楼盘信息已获取并保存到 lianjia_data.csv 文件中。
+#SAY 请输入要查询的均价范围（例如：20000-30000）：
+#ASK 请输入均价范围：
+END

@@ -1,0 +1,8 @@
+SAY 欢迎来到银行客服中心！
+ASK 请输入您的姓名：
+IF $ANSWER == 张三 THEN
+  SAY 您的余额是1000元。
+ELSE
+  SAY 抱歉，未找到您的账户信息。
+ENDIF
+END
